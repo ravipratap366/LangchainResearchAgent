@@ -45,6 +45,9 @@ def search(query):
     return response.text
 
 
+
+
+
 # 2. Tool for scraping
 def scrape_website(objective: str, url: str):
     # scrape website, and also will summarize the content based on objective if the content is too large
